@@ -1,145 +1,153 @@
 module HUBIGraph (
-   addNode, removeNode, addNodeWithoutID,
-   addEdge, removeEdge, addEdgeWithoutID,
-   vertexColor, vertexShape, vertexShapedetail,
-   vertexLabel, vertexSize, vertexFontcolor,
+   HUBIGraph, ID, Edge, Shapes(..), Stroke(..),
+   initHUBIGraph,
+   clear, newVertexWithID, newVertex, removeVertex,
+   newEdgeWithID, newEdge,
+   vertexShape, vertexShapedetail, vertexSize,
+   vertexColor, vertexLabel, vertexFontcolor,
    vertexFontfamily, vertexFontsize, vertexVisible,
    edgeColor, edgeLabel, edgeFontcolor,
    edgeFontfamily, edgeFontsize, edgeSpline,
    edgeStrength, edgeOriented, edgeStroke,
    edgeArrow, edgeArrowPosition,
    edgeArrowRadius, edgeArrowLength, edgeArrowReverse,
-   edgeShowstrain, edgeVisible, edgeWith,
+   edgeShowstrain, edgeVisible, edgeWith,  
   ) where
 
+import System.IO
+import System.Exit (exitWith, ExitCode(ExitSuccess))
+import Control.Monad.Reader (ReaderT(..), runReaderT, asks, liftIO, lift)
 import Network.XmlRpc.Client
 import Char (toLower)
-import Prelude hiding (catch)
+
+type HUBIGraph = ReaderT UBIGraph IO
+data UBIGraph = UBIGraph { server :: String }
 
 type ID = Int
 type Edge = (Int, Int)
 data Shapes = Cone | Cube | Dodecahedron | Icosahedron
-            | Octahederon | Sphere | Octahedron
+            | Octahedron | Sphere | Tetrahedron
             | Torus deriving (Show)
 data Stroke = Solid | Dashed | Dotted
             | None deriving (Show)
 
-serv :: String
-serv = "http://localhost:20738/RPC2"
+initHUBIGraph :: (Monad m) => String -> m UBIGraph
+initHUBIGraph serv = return ( UBIGraph { server = serv } )
 
-clear :: IO Int
-clear = remote serv "ubigraph.clear"
+clear :: HUBIGraph Int
+clear = 
+    do serv <- asks server
+       liftIO $ remote serv "ubigraph.clear"
 
-addNode :: ID -> IO Int
-addNode node = remote serv "ubigraph.new_vertex_w_id" node
+newVertexWithID :: ID -> HUBIGraph Int
+newVertexWithID node =
+    do serv <- asks server
+       liftIO $ remote serv "ubigraph.new_vertex_w_id" node
 
-addNodeWithoutID :: IO Int
-addNodeWithoutID = remote serv "ubigraph.new_vertex"
+newVertex :: HUBIGraph Int
+newVertex =
+    do serv <- asks server
+       liftIO $ remote serv "ubigraph.new_vertex"
 
-removeNode :: ID -> IO Int
-removeNode node = remote serv "ubigraph.remove_vertex" node
+removeVertex :: HUBIGraph Int
+removeVertex =
+    do serv <- asks server
+       liftIO $ remote serv "ubigraph.remove_vertex"
 
-addEdge :: ID -> Edge -> IO Int
-addEdge eid (src,dst) = remote serv "ubigraph.new_edge_w_id" eid src dst
+newEdgeWithID :: ID -> Edge -> HUBIGraph Int
+newEdgeWithID eid (src,dst) =
+    do serv <- asks server
+       liftIO $ remote serv "ubigraph.new_edge_w_id" eid src dst
 
-addEdgeWithoutID :: Edge -> IO Int
-addEdgeWithoutID (src,dst) = remote serv "ubigraph.new_edge" src dst
+newEdge :: Edge -> HUBIGraph Int
+newEdge (src,dst) =
+    do serv <- asks server
+       liftIO $ remote serv "ubigraph.new_edge" src dst
 
-removeEdge :: ID -> IO Int
-removeEdge eid = remote serv "ubigraph.remove_edge" eid
+setVertexAttribute :: ID -> String -> String -> HUBIGraph Int
+setVertexAttribute id op val =
+    do serv <- asks server
+       liftIO $ remote serv "ubigraph.set_vertex_attribute" id op val
 
-{- === VERTEX STYLE ATTRIBUTES ====================
-   color, shape, shapedetail, label, labelpos,
-   size, fontcolor, fontfamily, fontsize, visible
--}
-vattr :: ID -> String -> String -> IO Int
-vattr id op val = remote serv "ubigraph.set_vertex_attribute" id op val
+vertexShape :: ID -> Shapes -> HUBIGraph Int
+vertexShape node shape = setVertexAttribute node "shape" $ map toLower (show shape)
 
-vertexShape :: ID -> Shapes -> IO Int
-vertexShape node shape = vattr node "shape" $ map toLower (show shape)
+vertexShapedetail :: ID -> Int -> HUBIGraph Int
+vertexShapedetail node val = setVertexAttribute node "shapedetail" $ show val
 
--- sensible value from 5 to 40
-vertexShapedetail :: ID -> Int -> IO Int
-vertexShapedetail node val = vattr node "shapedetail" $ show val
+vertexColor :: ID -> String -> HUBIGraph Int
+vertexColor node color = setVertexAttribute node "color" color
 
-vertexColor :: ID -> String -> IO Int
-vertexColor node color = vattr node "color" color
+vertexSize :: ID -> Float -> HUBIGraph Int
+vertexSize node sz = setVertexAttribute node "size" $ show sz
 
-vertexSize :: ID -> Float -> IO Int
-vertexSize node sz = vattr node "size" $ show sz
+vertexLabel :: ID -> String -> HUBIGraph Int
+vertexLabel node str = setVertexAttribute node "label" str
 
-vertexLabel :: ID -> String -> IO Int
-vertexLabel node str = vattr node "label" str
+vertexFontcolor :: ID -> String -> HUBIGraph Int
+vertexFontcolor node color = setVertexAttribute node "fontcolor" color
 
-vertexFontcolor :: ID -> String -> IO Int
-vertexFontcolor node color = vattr node "fontcolor" color
+vertexFontfamily :: ID -> String -> HUBIGraph Int
+vertexFontfamily node family = setVertexAttribute node "fontfamily" family
 
-vertexFontfamily :: ID -> String -> IO Int
-vertexFontfamily node family = vattr node "fontfamily" family
+vertexFontsize :: ID -> Int -> HUBIGraph Int
+vertexFontsize node sz = setVertexAttribute node "fontsize" $ show sz
 
-vertexFontsize :: ID -> Int -> IO Int
-vertexFontsize node sz = vattr node "fontsize" $ show sz
+vertexVisible :: ID -> Bool -> HUBIGraph Int
+vertexVisible node bl = setVertexAttribute node "visible" $ map toLower (show bl)
 
-vertexVisible :: ID -> Bool -> IO Int
-vertexVisible node bl = vattr node "visible" $ map toLower (show bl)
+setEdgeAttribute :: ID -> String -> String -> HUBIGraph Int
+setEdgeAttribute eid name val =
+    do serv <- asks server
+       liftIO $ remote serv "ubigraph.set_edge_attribute" eid name val
 
-{- === EDGE STYLE ATTRIBUTES ====================
-   color, label, fontcolor, fontfamily, fontsize,
-   spline, strength, oriented, stroke, width,
-   arrow, showstrain, visible
--}
+edgeArrow :: ID -> Bool -> HUBIGraph Int
+edgeArrow eid bl = setEdgeAttribute eid "arrow" $ map toLower (show bl)
 
--- set edge attributes
-eattr :: ID -> String -> String -> IO Int
-eattr eid name val = remote serv "ubigraph.set_edge_attribute" eid name val
+edgeArrowPosition :: ID -> Float -> HUBIGraph Int
+edgeArrowPosition eid pos = setEdgeAttribute eid "arrow_position" $ show pos
 
-edgeArrow :: ID -> Bool -> IO Int
-edgeArrow eid bl = eattr eid "arrow" $ map toLower (show bl)
+edgeArrowRadius :: ID -> Float -> HUBIGraph Int
+edgeArrowRadius eid rad = setEdgeAttribute eid "arrow_radius" $ show rad
 
-edgeArrowPosition :: ID -> Float -> IO Int
-edgeArrowPosition eid pos = eattr eid "arrow_position" $ show pos
+edgeArrowLength :: ID -> Float -> HUBIGraph Int
+edgeArrowLength eid len = setEdgeAttribute eid "arrow_length" $ show len
 
-edgeArrowRadius :: ID -> Float -> IO Int
-edgeArrowRadius eid rad = eattr eid "arrow_radius" $ show rad
+edgeArrowReverse :: ID -> Bool -> HUBIGraph Int
+edgeArrowReverse eid bl = setEdgeAttribute eid "arrow_reverse" $ map toLower (show bl)
 
-edgeArrowLength :: ID -> Float -> IO Int
-edgeArrowLength eid len = eattr eid "arrow_length" $ show len
+edgeColor :: ID -> String -> HUBIGraph Int
+edgeColor eid color = setEdgeAttribute eid "color" color
 
-edgeArrowReverse :: ID -> Bool -> IO Int
-edgeArrowReverse eid bl = eattr eid "arrow_reverse" $ map toLower (show bl)
+edgeLabel :: ID -> String -> HUBIGraph Int
+edgeLabel eid str = setEdgeAttribute eid "label" str
 
-edgeColor :: ID -> String -> IO Int
-edgeColor eid color = eattr eid "color" color
+edgeFontcolor :: ID -> String -> HUBIGraph Int
+edgeFontcolor eid color = setEdgeAttribute eid "fontcolor" color
 
-edgeLabel :: ID -> String -> IO Int
-edgeLabel eid str = eattr eid "label" str
+edgeFontfamily :: ID -> String -> HUBIGraph Int
+edgeFontfamily eid family = setEdgeAttribute eid "fontfamily" family
 
-edgeFontcolor :: ID -> String -> IO Int
-edgeFontcolor eid color = vattr eid "fontcolor" color
+edgeFontsize :: ID -> Int -> HUBIGraph Int
+edgeFontsize eid sz = setEdgeAttribute eid "fontsize" $ show sz
 
-edgeFontfamily :: ID -> String -> IO Int
-edgeFontfamily eid family = vattr eid "fontfamily" family
+edgeOriented :: ID -> Bool -> HUBIGraph Int
+edgeOriented eid bl = setEdgeAttribute eid "oriented" $ map toLower (show bl)
 
-edgeFontsize :: ID -> Int -> IO Int
-edgeFontsize eid sz = vattr eid "fontsize" $ show sz
+edgeSpline :: ID -> Bool -> HUBIGraph Int
+edgeSpline eid bl = setEdgeAttribute eid "spline" $ map toLower (show bl)
 
-edgeOriented :: ID -> Bool -> IO Int
-edgeOriented eid bl = eattr eid "oriented" $ map toLower (show bl)
+edgeShowstrain :: ID -> Bool -> HUBIGraph Int
+edgeShowstrain eid bl = setEdgeAttribute eid "showstrain" $ map toLower (show bl)
 
-edgeSpline :: ID -> Bool -> IO Int
-edgeSpline eid bl = eattr eid "spline" $ map toLower (show bl)
+edgeStroke :: ID -> Stroke -> HUBIGraph Int
+edgeStroke eid stroke = setEdgeAttribute eid "stroke" $ map toLower (show stroke)
 
-edgeShowstrain :: ID -> Bool -> IO Int
-edgeShowstrain eid bl = eattr eid "showstrain" $ map toLower (show bl)
+edgeStrength :: ID -> Float -> HUBIGraph Int
+edgeStrength eid len = setEdgeAttribute eid "strength" $ show len
 
-edgeStroke :: ID -> Stroke -> IO Int
-edgeStroke eid stroke = eattr eid "stroke" $ map toLower (show stroke)
+edgeVisible :: ID -> Bool -> HUBIGraph Int
+edgeVisible eid bl = setEdgeAttribute eid "visible" $ map toLower (show bl)
 
-edgeStrength :: ID -> Float -> IO Int
-edgeStrength eid len = eattr eid "strength" $ show len
-
-edgeVisible :: ID -> Bool -> IO Int
-edgeVisible eid bl = eattr eid "visible" $ map toLower (show bl)
-
-edgeWith :: ID -> Float -> IO Int
-edgeWith eid width = eattr eid "width" $ show width
+edgeWith :: ID -> Float -> HUBIGraph Int
+edgeWith eid width = setEdgeAttribute eid "width" $ show width
