@@ -1,0 +1,14 @@
+Name:          HUBIGraph
+Version:       1.0
+Homepage:      http://ooxo.org/hubigraph/
+Synopsis:      A Haskell wrap for Ubigraph
+Category:      Network
+License:       BSD3
+License-file:  LICENSE
+Author:        Kohei Ozaki
+Maintainer:    Kohei Ozaki <smly@ooxo.org>
+Cabal-Version: >= 1.2
+ 
+library
+  Exposed-Modules: HUBIGraph
+  Build-Depends:   base >= 2.0, mtl >= 1.1.0.1, haxr >= 3000.1.1.1

@@ -1,1 +1,46 @@
-junk junk junk junk junk junk junk!!
+= HUBIGraph
+
+http://ooxo.org/hubigraph/
+
+== DESCRIPTION:
+
+a Haskell wrap for Ubigraph (http://www.ubietylab.net/ubigraph)
+
+== FEATURES/PROBLEMS:
+
+It provides a shortcut to plot, draw a graph (by calling XML-RPC internally).
+
+== SYNOPSIS:
+Make sure Ubigraph server is started before using this library.
+
+   import HUBIGraph
+   import Control.Monad.Reader (runReaderT, liftIO)
+
+   main :: IO ()
+   main = initHUBIGraph "http://192.168.0.2:20738/RPC2" >>= runReaderT run
+
+   run :: HUBIGraph ()
+   run = do
+     mapM newVertex' [0.. (num-1)]
+     mapM (newEdge' num) [0..(num-1)]
+     return ()
+         where num = 20 :: Int
+               newEdge' upper node
+                   = newEdgeWithID node (node, (node+1) `mod` upper)
+               newVertex' n = do newVertexWithID n
+                                 vertexLabel n $ show n
+
+== REQUIREMENTS:
+
+Ubigraph (http://www.ubietylab.net/ubigraph).
+HaXR >= 3000.1.1.1
+
+== INSTALL:
+
+runhaskell Setup.lhs configure
+runhaskell Setup.lhs build
+runhaskell Setup.lhs install
+
+== LICENSE:
+
+The BSD3 License

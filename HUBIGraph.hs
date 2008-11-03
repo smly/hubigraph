@@ -18,7 +18,7 @@ import System.IO
 import System.Exit (exitWith, ExitCode(ExitSuccess))
 import Control.Monad.Reader (ReaderT(..), runReaderT, asks, liftIO, lift)
 import Network.XmlRpc.Client
-import Char (toLower)
+import Data.Char (toLower)
 
 type HUBIGraph = ReaderT UBIGraph IO
 data UBIGraph = UBIGraph { server :: String }
