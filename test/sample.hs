@@ -1,6 +1,6 @@
 {-# OPTIONS -fglasgow-exts #-}
 
-import HUBIGraph
+import Hubigraph
 import Control.Monad.Reader (runReaderT, liftIO)
 import Foreign
 import Foreign.C
@@ -9,13 +9,13 @@ import System.Posix.Signals
 foreign import ccall "sleep" sleep :: Int -> IO ()
 
 main :: IO ()
-main = initHUBIGraph "http://192.168.0.2:20738/RPC2" >>= runReaderT run
+main = initHubigraph "http://192.168.0.2:20738/RPC2" >>= runReaderT run
 
-run :: HUBIGraph ()
+run :: Hubigraph ()
 run = test1 >> io (sleep 5) >> clear >>
       test2 >> io (sleep 5)
 
-test1 :: HUBIGraph ()
+test1 :: Hubigraph ()
 test1 = do
   mapM newVertex' [0.. (num-1)]
   mapM (newEdge' num) [0..(num-1)]
@@ -26,7 +26,7 @@ test1 = do
             newVertex' n = do newVertexWithID n
                               vertexLabel n $ show n
 
-test2 :: HUBIGraph ()
+test2 :: Hubigraph ()
 test2 = do
   mapM newVertex' [0..(num-1)]
   mapM (newEdge' num) [0..(num-1)]
@@ -40,5 +40,5 @@ test2 = do
                               vertexSize n 3.0
                               vertexColor n "#ff0000"
 
-io :: IO a -> HUBIGraph a
+io :: IO a -> Hubigraph a
 io = liftIO
