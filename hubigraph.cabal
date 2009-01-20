@@ -1,15 +1,18 @@
 Name:          Hubigraph
-Version:       0.1.1
+Version:       0.1.2
 Homepage:      http://ooxo.org/hubigraph/
 Synopsis:      A Haskell wrap for Ubigraph
 Category:      Network
 License:       BSD3
 License-file:  LICENSE
 Author:        Kohei Ozaki
-Maintainer:    Kohei Ozaki <smly@ooxo.org>
+Maintainer:    Kohei Ozaki <i@smly.org>
 Cabal-Version: >= 1.2
 build-type:    Simple
 
 library
-  Exposed-Modules: Hubigraph
-  Build-Depends:   base >= 2.0, mtl >= 1.1.0.1, haxr >= 3000.1.1.1
+  Exposed-Modules: Hubigraph,
+                   Hubigraph.Graph,
+                   Hubigraph.Base
+  Build-Depends:   base >= 2.0, mtl >= 1.1.0.1, containers >= 0.2.0.0,
+                   haxr >= 3000.1.1.1
