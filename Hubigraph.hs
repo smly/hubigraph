@@ -1,6 +1,6 @@
 module Hubigraph (
-   Hubigraph, ID, Edge, Shapes(..), Stroke(..),
-   initHubigraph,
+   module Hubigraph.Base,
+   initHubigraph, runHubigraph,
    clear, newVertexWithID, newVertex, removeVertex,
    newEdgeWithID, newEdge,
    vertexShape, vertexShapedetail, vertexSize,
@@ -14,25 +14,16 @@ module Hubigraph (
    edgeShowstrain, edgeVisible, edgeWith,  
   ) where
 
-import System.IO
-import System.Exit (exitWith, ExitCode(ExitSuccess))
 import Control.Monad.Reader (ReaderT(..), runReaderT, asks, liftIO, lift)
-import Network.XmlRpc.Client
+import Network.XmlRpc.Client (remote)
 import Data.Char (toLower)
 
-type Hubigraph = ReaderT UBIGraph IO
-data UBIGraph = UBIGraph { server :: String }
+import Hubigraph.Base
 
-type ID = Int
-type Edge = (Int, Int)
-data Shapes = Cone | Cube | Dodecahedron | Icosahedron
-            | Octahedron | Sphere | Tetrahedron
-            | Torus deriving (Show)
-data Stroke = Solid | Dashed | Dotted
-            | None deriving (Show)
+runHubigraph = runReaderT
 
-initHubigraph :: (Monad m) => String -> m UBIGraph
-initHubigraph serv = return ( UBIGraph { server = serv } )
+initHubigraph :: (Monad m) => String -> m Ubigraph
+initHubigraph serv = return ( Ubigraph { server = serv } )
 
 clear :: Hubigraph Int
 clear = 
