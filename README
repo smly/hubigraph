@@ -14,13 +14,12 @@ It provides a shortcut to plot, draw a graph (by calling XML-RPC internally).
 Make sure Ubigraph server is started before using this library.
 
    import Hubigraph
-   import Control.Monad.Reader (runReaderT, liftIO)
 
    main :: IO ()
-   main = initHubigraph "http://192.168.0.2:20738/RPC2" >>= runReaderT run
+   main = initHubigraph "http://192.168.0.2:20738/RPC2" >>= runHubigraph test
 
-   run :: Hubigraph ()
-   run = do
+   test :: Hubigraph ()
+   test = do
      mapM newVertex' [0.. (num-1)]
      mapM (newEdge' num) [0..(num-1)]
      return ()

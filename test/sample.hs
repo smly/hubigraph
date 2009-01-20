@@ -1,5 +1,4 @@
 import Hubigraph
-import Hubigraph.Graph
 
 main :: IO ()
 main = initHubigraph "http://127.0.0.1:20738/RPC2" >>= runHubigraph test
