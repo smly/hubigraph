@@ -23,7 +23,9 @@ main =
 
 test2 :: Graph -> Hubigraph ()
 test2 g =
-    do let eid = 0
-           vid = 0
-       addGraph g eid vid
-       mapM_ (\n -> edgeArrow (snd n) True) (zip (edges g) (iterate (+1) eid))
+    do
+      addGraph g eid vid
+      mapM_ (\n -> edgeArrow (snd n) True) (zip (edges g) (iterate (+1) eid))
+    where eid = 0
+          vid = 0
+
