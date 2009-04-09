@@ -6,7 +6,7 @@ Category:      Network
 License:       BSD3
 License-file:  LICENSE
 Author:        Kohei Ozaki
-Maintainer:    Kohei Ozaki <i@smly.org>
+Maintainer:    Kohei Ozaki <eowner@gmail.com>
 Cabal-Version: >= 1.2
 build-type:    Simple
 
