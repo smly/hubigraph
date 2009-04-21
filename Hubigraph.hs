@@ -11,7 +11,7 @@ module Hubigraph (
    edgeStrength, edgeOriented, edgeStroke,
    edgeArrow, edgeArrowPosition,
    edgeArrowRadius, edgeArrowLength, edgeArrowReverse,
-   edgeShowstrain, edgeVisible, edgeWith,
+   edgeShowstrain, edgeVisible, edgeWidth,
   ) where
 
 import Control.Monad.Reader (ReaderT(..), runReaderT, asks, liftIO, lift)
@@ -140,5 +140,5 @@ edgeStrength eid len = setEdgeAttribute eid "strength" $ show len
 edgeVisible :: ID -> Bool -> Hubigraph Int
 edgeVisible eid bl = setEdgeAttribute eid "visible" $ map toLower (show bl)
 
-edgeWith :: ID -> Float -> Hubigraph Int
-edgeWith eid width = setEdgeAttribute eid "width" $ show width
+edgeWidth :: ID -> Float -> Hubigraph Int
+edgeWidth eid width = setEdgeAttribute eid "width" $ show width
