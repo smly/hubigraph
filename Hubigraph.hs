@@ -11,7 +11,7 @@ module Hubigraph (
    edgeStrength, edgeOriented, edgeStroke,
    edgeArrow, edgeArrowPosition,
    edgeArrowRadius, edgeArrowLength, edgeArrowReverse,
-   edgeShowstrain, edgeVisible, edgeWith,  
+   edgeShowstrain, edgeVisible, edgeWith,
   ) where
 
 import Control.Monad.Reader (ReaderT(..), runReaderT, asks, liftIO, lift)
@@ -26,7 +26,7 @@ initHubigraph :: (Monad m) => String -> m Ubigraph
 initHubigraph serv = return ( Ubigraph { server = serv } )
 
 clear :: Hubigraph Int
-clear = 
+clear =
     do serv <- asks server
        liftIO $ remote serv "ubigraph.clear"
 
