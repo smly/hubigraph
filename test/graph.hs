@@ -19,6 +19,9 @@ main = do
 
 run :: G.Gr String Int -> Hubigraph ()
 run g = do
-  addGraph g
-  liftIO $ system "sleep 3"
-  pathVertexColor (SP.sp 1 6 g) "#00ff00"
+  addGraph g -- add graph!
+  liftIO $ system "sleep 3" -- sleep 3 minutes
+  pathVertexColor (SP.sp 1 6 g) "#00ff00" -- coloring shortest path
+  vertexColor 1 "#ff0000" -- coloring src node (id:1)
+  vertexColor 6 "#ff00ff" -- coloring dst node (id:6)
+  return ()
