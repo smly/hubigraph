@@ -1,0 +1,1161 @@
+Acton_Central
+Acton_Town
+Aldgate
+Aldgate_East
+All_Saints
+Alperton
+Amersham
+Angel
+Archway
+Arnos_Grove
+Arsenal
+Baker_Street
+Balham
+Bank
+Barbican
+Barking
+Barkingside
+Barons_Court
+Beckton
+Beckton_Park
+Becontree
+Belsize_Park
+Bermondsey
+Bethnal_Green
+Blackfriars
+Blackhorse_Road
+Blackwall
+Bond_Street
+Borough
+Boston_Manor
+Bounds_Green
+Bow_Church
+Bow_Road
+Brent_Cross
+Brixton
+Bromley_by_Bow
+Brondesbury
+Brondesbury_Park
+Buckhurst_Hill
+Burnt_Oak
+Caledonian_Road
+Caledonian_Road_&_Barnsbury
+Camden_Road
+Camden_Town
+Canada_Water
+Canary_Wharf
+Canning_Town
+Cannon_Street
+Canonbury
+Canons_Park
+Chalfont_&_Latimer
+Chalk_Farm
+Chancery_Lane
+Charing_Cross
+Chesham
+Chigwell
+Chiswick_Park
+Chorleywood
+Clapham_Common
+Clapham_North
+Clapham_South
+Cockfosters
+Colindale
+Colliers_Wood
+Covent_Garden
+Crossharbour_&_London_Arena
+Croxley
+Custom_House
+Cutty_Sark
+Cyprus
+Dagenham_East
+Dagenham_Heathway
+Dalston_Kingsland
+Debden
+Deptford_Bridge
+Devons_Road
+Dollis_Hill
+Ealing_Broadway
+Ealing_Common
+Earl's_Court
+East_Acton
+East_Finchley
+East_Ham
+East_India
+East_Putney
+Eastcote
+Edgware
+Edgware_Road_<Bakerloo>
+Edgware_Road_<Circle_&_Hammersmith>
+Elephant_&_Castle
+Elm_Park
+Elverson_Road
+Embankment
+Epping
+Euston
+Euston_Square
+Fairlop
+Farringdon
+Finchley_Central
+Finchley_Road
+Finsbury_Park
+Fulham_Broadway
+Gallions_Reach
+Gants_Hill
+Gloucester_Road
+Golders_Green
+Goldhawk_Road
+Gospel_Oak
+Grange_Hill
+Great_Portland_Street
+Green_Park
+Greenford
+Greenwich
+Gunnersbury
+Hackney_Central
+Hackney_Wick
+Hainault
+Hammersmith
+Hampstead
+Hampstead_Heath
+Hanger_Lane
+Harlesden
+Harrow_&_Wealdstone
+Harrow_On_The_Hill
+Hatton_Cross
+Heathrow_Terminal_4
+Heathrow_Terminals_123
+Hendon_Central
+Heron_Quays
+High_Barnet
+High_Street_Kensington
+Highbury_&_Islington
+Highgate
+Hittingdon
+Holborn
+Holland_Park
+Holloway_Road
+Homerton
+Hornchurch
+Hounslow_Central
+Hounslow_East
+Hounslow_West
+Hyde_Park_Corner
+Ickenham
+Island_Gardens
+Kennington
+Kensal_Green
+Kensal_Rise
+Kentish_Town
+Kentish_Town_West
+Kenton
+Kew_Gardens
+Kilburn
+Kilburn_Park
+King's_Cross_St_Pancras
+Kingsbury
+Knightsbridge
+Ladbroke_Grove
+Lambeth_North
+Lancaster_Gate
+Latimer_Road
+Leicester_Square
+Lewisham
+Leyton
+Leytonstone
+Limehouse
+Liverpool_Street
+London_Bridge
+Loughton
+Maida_Vale
+Manor_House
+Mansion_House
+Marble_Arch
+Marleybone
+Mile_End
+Mill_Hill_East
+Monument
+Moor_Park
+Moorgate
+Morden
+Mornington_Crescent
+Mudchute
+Neasdon
+New_Cross
+New_Cross_Gate
+Newbury_Park
+North_Acton
+North_Ealing
+North_Greenwich
+North_Harrow
+North_Wembley
+North_Woolwich
+Northfields
+Northolt
+Northwick_Park
+Northwood
+Northwood_Hills
+Notting_Hill_Gate
+Oakwood
+Old_Street
+Osterly
+Oval
+Oxford_Circus
+Paddington_<Bakerloo_&_Circle>
+Paddington_<Hammersmith>
+Park_Royal
+Parsons_Green
+Perivale
+Piccadilly_Circus
+Pimlico
+Pinner
+Plaistow
+Poplar
+Preston_Road
+Prince_Regent
+Pudding_Mill_Lane
+Putney_Bridge
+Queen's_Park
+Queensbury
+Queensway
+Ravenscourt_Park
+Rayners_Lane
+Redbridge
+Regent's_Park
+Richmond
+Rickmansworth
+Roding_Valley
+Rotherhithe
+Royal_Albert
+Royal_Oak
+Royal_Victoria
+Ruislip
+Ruislip_Gardens
+Ruislip_Manor
+Russell_Square
+Seven_Sisters
+Shadwell
+Shepherd's_Bush_<Central>
+Shepherd's_Bush_<Hammersmith>
+Shoreditch
+Silvertown
+Sloane_Square
+Snaresbrook
+South_Acton
+South_Ealing
+South_Harrow
+South_Kensington
+South_Kenton
+South_Quay
+South_Ruislip
+South_Wimbledon
+South_Woodford
+Southfields
+Southgate
+Southwark
+St_James's_Park
+St_John's_Wood
+St_Paul's
+Stamford_Brook
+Stanmore
+Stepney_Green
+Stockwell
+Stonebridge_Park
+Stratford
+Sudbury_Hill
+Sudbury_Town
+Surrey_Quays
+Swiss_Cottage
+Temple
+Theydon_Bols
+Tooting_Bec
+Tooting_Broadway
+Tottenham_Court_Road
+Tottenham_Hale
+Totteridge_&_Whetstone
+Tower_Gateway
+Tower_Hill
+Tufnell_Park
+Turnham_Green
+Turnpike_Lane
+Upminster
+Upminster_Bridge
+Upney
+Upton_Park
+Uxbridge
+Vauxhall
+Victoria
+Walthamstow_Central
+Wanstead
+Wapping
+Warren_Street
+Warwick_Avenue
+Waterloo
+Watford
+Wembley_Park
+Wembley_Central
+West_Acton
+West_Brompton
+West_Finchley
+West_Ham
+West_Hampstead
+West_Harrow
+West_India_Quay
+West_Kensington
+West_Ruislip
+Westbourne_Park
+Westferry
+Westminster
+White_City
+Whitechapel
+Willesden_Green
+Willesden_Junction
+Wimbledon
+Wimbledon_Park
+Wood_Green
+Woodford
+Woodside_Park
+Finchley_Road_&_Frognal
+
+( Acton_Central, Kensal_Rise, National_Rail_Line)
+( Acton_Central, South_Acton, National_Rail_Line)
+( Acton_Town, Ealing_Common, District_Line)
+( Acton_Town, Ealing_Common, Piccadilly_Line)
+( Acton_Town, South_Ealing, Piccadilly_Line)
+( Acton_Town, Turnham_Green, Piccadilly_Line)
+( Aldgate, Liverpool_Street, Metropolitan_Line)
+( Aldgate_East, Liverpool_Street, Hammersmith_&_City_Line)
+( Aldgate_East, Whitechapel, District_Line)
+( Aldgate_East, Whitechapel, Hammersmith_&_City_Line)
+( All_Saints, Devons_Road, Docklands_Light_Railway_Line)
+( All_Saints, Poplar, Docklands_Light_Railway_Line)
+( Alperton, Park_Royal, Piccadilly_Line)
+( Alperton, Sudbury_Town, Piccadilly_Line)
+( Amersham, Chalfont_&_Latimer, Metropolitan_Line)
+( Angel, King's_Cross_St_Pancras, Northern_Line)
+( Angel, Old_Street, Northern_Line)
+( Archway, Highgate, Northern_Line)
+( Archway, Tufnell_Park, Northern_Line)
+( Arnos_Grove, Bounds_Green, Piccadilly_Line)
+( Arnos_Grove, Southgate, Piccadilly_Line)
+( Arsenal, Finsbury_Park, Piccadilly_Line)
+( Arsenal, Holloway_Road, Piccadilly_Line)
+( Baker_Street, Bond_Street, Jubilee_Line)
+( Baker_Street, Edgware_Road_<Circle_&_Hammersmith>, Circle_Line)
+( Baker_Street, Edgware_Road_<Circle_&_Hammersmith>, Hammersmith_&_City_Line)
+( Baker_Street, Finchley_Road, Metropolitan_Line)
+( Baker_Street, Great_Portland_Street, Circle_Line)
+( Baker_Street, Great_Portland_Street, Hammersmith_&_City_Line)
+( Baker_Street, Great_Portland_Street, Metropolitan_Line)
+( Baker_Street, Marleybone, Bakerloo_Line)
+( Baker_Street, Regent's_Park, Bakerloo_Line)
+( Baker_Street, St_John's_Wood, Jubilee_Line)
+( Balham, Clapham_South, Northern_Line)
+( Balham, Tooting_Bec, Northern_Line)
+( Bank, Liverpool_Street, Central_Line)
+( Bank, London_Bridge, Northern_Line)
+( Bank, Monument, Connected_Underground)
+( Bank, Moorgate, Northern_Line)
+( Bank, Shadwell, Docklands_Light_Railway_Line)
+( Bank, St_Paul's, Central_Line)
+( Bank, Waterloo, Waterloo_&_City_Line)
+( Barbican, Farringdon, Circle_Line)
+( Barbican, Farringdon, Hammersmith_&_City_Line)
+( Barbican, Farringdon, Metropolitan_Line)
+( Barbican, Moorgate, Circle_Line)
+( Barbican, Moorgate, Hammersmith_&_City_Line)
+( Barbican, Moorgate, Metropolitan_Line)
+( Barking, East_Ham, District_Line)
+( Barking, East_Ham, Hammersmith_&_City_Line)
+( Barking, Upney, District_Line)
+( Barkingside, Fairlop, Central_Line)
+( Barkingside, Newbury_Park, Central_Line)
+( Barons_Court, Earl's_Court, Piccadilly_Line)
+( Barons_Court, Hammersmith, District_Line)
+( Barons_Court, Hammersmith, Piccadilly_Line)
+( Barons_Court, West_Kensington, District_Line)
+( Beckton, Gallions_Reach, Docklands_Light_Railway_Line)
+( Beckton_Park, Cyprus, Docklands_Light_Railway_Line)
+( Beckton_Park, Royal_Albert, Docklands_Light_Railway_Line)
+( Becontree, Dagenham_Heathway, District_Line)
+( Becontree, Upney, District_Line)
+( Belsize_Park, Chalk_Farm, Northern_Line)
+( Belsize_Park, Hampstead, Northern_Line)
+( Bermondsey, Canada_Water, Jubilee_Line)
+( Bermondsey, London_Bridge, Jubilee_Line)
+( Bethnal_Green, Liverpool_Street, Central_Line)
+( Bethnal_Green, Mile_End, Central_Line)
+( Blackfriars, Mansion_House, Circle_Line)
+( Blackfriars, Mansion_House, District_Line)
+( Blackfriars, Temple, Circle_Line)
+( Blackfriars, Temple, District_Line)
+( Blackhorse_Road, Tottenham_Hale, Victoria_Line)
+( Blackhorse_Road, Walthamstow_Central, Victoria_Line)
+( Blackwall, East_India, Docklands_Light_Railway_Line)
+( Blackwall, Poplar, Docklands_Light_Railway_Line)
+( Bond_Street, Baker_Street, Jubilee_Line)
+( Bond_Street, Green_Park, Jubilee_Line)
+( Bond_Street, Marble_Arch, Central_Line)
+( Bond_Street, Oxford_Circus, Central_Line)
+( Borough, Elephant_&_Castle, Northern_Line)
+( Borough, London_Bridge, Northern_Line)
+( Boston_Manor, Northfields, Piccadilly_Line)
+( Boston_Manor, Osterly, Piccadilly_Line)
+( Bounds_Green, Arnos_Grove, Piccadilly_Line)
+( Bounds_Green, Wood_Green, Piccadilly_Line)
+( Bow_Church, Bow_Road, Connected_Underground)
+( Bow_Church, Devons_Road, Docklands_Light_Railway_Line)
+( Bow_Church, Pudding_Mill_Lane, Docklands_Light_Railway_Line)
+( Bow_Road, Bow_Church, Connected_Underground)
+( Bow_Road, Bromley_by_Bow, District_Line)
+( Bow_Road, Bromley_by_Bow, Hammersmith_&_City_Line)
+( Bow_Road, Mile_End, District_Line)
+( Bow_Road, Mile_End, Hammersmith_&_City_Line)
+( Brent_Cross, Golders_Green, Northern_Line)
+( Brent_Cross, Hendon_Central, Northern_Line)
+( Brixton, Stockwell, Victoria_Line)
+( Bromley_by_Bow, Bow_Road, District_Line)
+( Bromley_by_Bow, Bow_Road, Hammersmith_&_City_Line)
+( Bromley_by_Bow, West_Ham, District_Line)
+( Bromley_by_Bow, West_Ham, Hammersmith_&_City_Line)
+( Brondesbury, Brondesbury_Park, National_Rail_Line)
+( Brondesbury, West_Hampstead, National_Rail_Line)
+( Brondesbury_Park, Brondesbury, National_Rail_Line)
+( Brondesbury_Park, Kensal_Rise, National_Rail_Line)
+( Buckhurst_Hill, Loughton, Central_Line)
+( Buckhurst_Hill, Woodford, Central_Line)
+( Burnt_Oak, Colindale, Northern_Line)
+( Burnt_Oak, Edgware, Northern_Line)
+( Caledonian_Road, Holloway_Road, Piccadilly_Line)
+( Caledonian_Road, King's_Cross_St_Pancras, Piccadilly_Line)
+( Caledonian_Road_&_Barnsbury, Camden_Road, National_Rail_Line)
+( Caledonian_Road_&_Barnsbury, Highbury_&_Islington, National_Rail_Line)
+( Camden_Road, Caledonian_Road_&_Barnsbury, National_Rail_Line)
+( Camden_Road, Kentish_Town_West, National_Rail_Line)
+( Camden_Town, Chalk_Farm, Northern_Line)
+( Camden_Town, Euston, Northern_Line)
+( Camden_Town, Kentish_Town, Northern_Line)
+( Camden_Town, Mornington_Crescent, Northern_Line)
+( Canada_Water, Bermondsey, Jubilee_Line)
+( Canada_Water, Canary_Wharf, Jubilee_Line)
+( Canada_Water, Rotherhithe, East_London_Line)
+( Canada_Water, Surrey_Quays, East_London_Line)
+( Canary_Wharf, Canada_Water, Jubilee_Line)
+( Canary_Wharf, Heron_Quays, Docklands_Light_Railway_Line)
+( Canary_Wharf, North_Greenwich, Jubilee_Line)
+( Canary_Wharf, West_India_Quay, Docklands_Light_Railway_Line)
+( Canning_Town, Custom_House, National_Rail_Line)
+( Canning_Town, East_India, Docklands_Light_Railway_Line)
+( Canning_Town, North_Greenwich, Jubilee_Line)
+( Canning_Town, Royal_Victoria, Docklands_Light_Railway_Line)
+( Canning_Town, West_Ham, Jubilee_Line)
+( Canning_Town, West_Ham, National_Rail_Line)
+( Cannon_Street, Mansion_House, Circle_Line)
+( Cannon_Street, Mansion_House, District_Line)
+( Cannon_Street, Monument, Circle_Line)
+( Cannon_Street, Monument, District_Line)
+( Canonbury, Dalston_Kingsland, National_Rail_Line)
+( Canonbury, Highbury_&_Islington, National_Rail_Line)
+( Canons_Park, Queensbury, Jubilee_Line)
+( Canons_Park, Stanmore, Jubilee_Line)
+( Chalfont_&_Latimer, Amersham, Metropolitan_Line)
+( Chalfont_&_Latimer, Chesham, Metropolitan_Line)
+( Chalfont_&_Latimer, Chorleywood, Metropolitan_Line)
+( Chalk_Farm, Belsize_Park, Northern_Line)
+( Chalk_Farm, Camden_Town, Northern_Line)
+( Chancery_Lane, Holborn, Central_Line)
+( Chancery_Lane, St_Paul's, Central_Line)
+( Charing_Cross, Embankment, Bakerloo_Line)
+( Charing_Cross, Embankment, Northern_Line)
+( Charing_Cross, Piccadilly_Circus, Bakerloo_Line)
+( Chesham, Chalfont_&_Latimer, Metropolitan_Line)
+( Chigwell, Grange_Hill, Central_Line)
+( Chigwell, Roding_Valley, Central_Line)
+( Chiswick_Park, South_Ealing, District_Line)
+( Chiswick_Park, Turnham_Green, District_Line)
+( Chorleywood, Chalfont_&_Latimer, Metropolitan_Line)
+( Chorleywood, Rickmansworth, Metropolitan_Line)
+( Clapham_Common, Clapham_North, Northern_Line)
+( Clapham_Common, Clapham_South, Northern_Line)
+( Clapham_North, Clapham_Common, Northern_Line)
+( Clapham_North, Stockwell, Northern_Line)
+( Clapham_South, Balham, Northern_Line)
+( Clapham_South, Clapham_Common, Northern_Line)
+( Cockfosters, Oakwood, Piccadilly_Line)
+( Colindale, Burnt_Oak, Northern_Line)
+( Colindale, Hendon_Central, Northern_Line)
+( Colliers_Wood, South_Wimbledon, Northern_Line)
+( Colliers_Wood, Tooting_Broadway, Northern_Line)
+( Covent_Garden, Holborn, Piccadilly_Line)
+( Covent_Garden, Leicester_Square, Piccadilly_Line)
+( Crossharbour_&_London_Arena, Mudchute, Docklands_Light_Railway_Line)
+( Crossharbour_&_London_Arena, South_Quay, Docklands_Light_Railway_Line)
+( Croxley, Moor_Park, Metropolitan_Line)
+( Croxley, Watford, Metropolitan_Line)
+( Custom_House, Canning_Town, National_Rail_Line)
+( Custom_House, Prince_Regent, Docklands_Light_Railway_Line)
+( Custom_House, Royal_Victoria, Docklands_Light_Railway_Line)
+( Custom_House, Silvertown, National_Rail_Line)
+( Cutty_Sark, Greenwich, Docklands_Light_Railway_Line)
+( Cutty_Sark, Island_Gardens, Docklands_Light_Railway_Line)
+( Cyprus, Beckton_Park, Docklands_Light_Railway_Line)
+( Cyprus, Gallions_Reach, Docklands_Light_Railway_Line)
+( Dagenham_East, Dagenham_Heathway, District_Line)
+( Dagenham_East, Elm_Park, District_Line)
+( Dagenham_Heathway, Becontree, District_Line)
+( Dagenham_Heathway, Dagenham_East, District_Line)
+( Dalston_Kingsland, Canonbury, National_Rail_Line)
+( Dalston_Kingsland, Hackney_Central, National_Rail_Line)
+( Debden, Loughton, Central_Line)
+( Debden, Theydon_Bols, Central_Line)
+( Deptford_Bridge, Elverson_Road, Docklands_Light_Railway_Line)
+( Deptford_Bridge, Greenwich, Docklands_Light_Railway_Line)
+( Devons_Road, All_Saints, Docklands_Light_Railway_Line)
+( Devons_Road, Bow_Church, Docklands_Light_Railway_Line)
+( Dollis_Hill, Neasdon, Jubilee_Line)
+( Dollis_Hill, Willesden_Green, Jubilee_Line)
+( Ealing_Broadway, Ealing_Common, District_Line)
+( Ealing_Broadway, West_Acton, Central_Line)
+( Ealing_Common, Acton_Town, District_Line)
+( Ealing_Common, Acton_Town, Piccadilly_Line)
+( Ealing_Common, Ealing_Broadway, District_Line)
+( Ealing_Common, North_Ealing, Piccadilly_Line)
+( Earl's_Court, Barons_Court, Piccadilly_Line)
+( Earl's_Court, Gloucester_Road, District_Line)
+( Earl's_Court, Gloucester_Road, Piccadilly_Line)
+( Earl's_Court, West_Brompton, District_Line)
+( Earl's_Court, West_Kensington, District_Line)
+( East_Acton, North_Acton, Central_Line)
+( East_Acton, White_City, Central_Line)
+( East_Finchley, Finchley_Central, Northern_Line)
+( East_Finchley, Highgate, Northern_Line)
+( East_Ham, Barking, District_Line)
+( East_Ham, Barking, Hammersmith_&_City_Line)
+( East_Ham, Upton_Park, District_Line)
+( East_Ham, Upton_Park, Hammersmith_&_City_Line)
+( East_India, Blackwall, Docklands_Light_Railway_Line)
+( East_India, Canning_Town, Docklands_Light_Railway_Line)
+( East_Putney, Putney_Bridge, District_Line)
+( East_Putney, Southfields, District_Line)
+( Eastcote, Rayners_Lane, Metropolitan_Line)
+( Eastcote, Rayners_Lane, Piccadilly_Line)
+( Eastcote, Ruislip_Manor, Metropolitan_Line)
+( Eastcote, Ruislip_Manor, Piccadilly_Line)
+( Edgware, Burnt_Oak, Northern_Line)
+( Edgware_Road_<Bakerloo>, Marleybone, Bakerloo_Line)
+( Edgware_Road_<Bakerloo>, Paddington_<Bakerloo_&_Circle>, Bakerloo_Line)
+( Edgware_Road_<Circle_&_Hammersmith>, Baker_Street, Circle_Line)
+( Edgware_Road_<Circle_&_Hammersmith>, Baker_Street, Hammersmith_&_City_Line)
+( Edgware_Road_<Circle_&_Hammersmith>, Paddington_<Bakerloo_&_Circle>, Circle_Line)
+( Edgware_Road_<Circle_&_Hammersmith>, Paddington_<Hammersmith>, Hammersmith_&_City_Line)
+( Elephant_&_Castle, Borough, Northern_Line)
+( Elephant_&_Castle, Kennington, Northern_Line)
+( Elephant_&_Castle, Lambeth_North, Bakerloo_Line)
+( Elm_Park, Dagenham_East, District_Line)
+( Elm_Park, Hornchurch, District_Line)
+( Elverson_Road, Deptford_Bridge, Docklands_Light_Railway_Line)
+( Elverson_Road, Lewisham, Docklands_Light_Railway_Line)
+( Embankment, Charing_Cross, Bakerloo_Line)
+( Embankment, Charing_Cross, Northern_Line)
+( Embankment, Temple, Circle_Line)
+( Embankment, Temple, District_Line)
+( Embankment, Waterloo, Bakerloo_Line)
+( Embankment, Waterloo, Northern_Line)
+( Embankment, Westminster, Circle_Line)
+( Embankment, Westminster, District_Line)
+( Epping, Theydon_Bols, Central_Line)
+( Euston, Camden_Town, Northern_Line)
+( Euston, King's_Cross_St_Pancras, Northern_Line)
+( Euston, King's_Cross_St_Pancras, Victoria_Line)
+( Euston, Mornington_Crescent, Northern_Line)
+( Euston, Warren_Street, Northern_Line)
+( Euston, Warren_Street, Victoria_Line)
+( Euston_Square, Great_Portland_Street, Circle_Line)
+( Euston_Square, Great_Portland_Street, Hammersmith_&_City_Line)
+( Euston_Square, Great_Portland_Street, Metropolitan_Line)
+( Euston_Square, King's_Cross_St_Pancras, Circle_Line)
+( Euston_Square, King's_Cross_St_Pancras, Hammersmith_&_City_Line)
+( Euston_Square, King's_Cross_St_Pancras, Metropolitan_Line)
+( Fairlop, Barkingside, Central_Line)
+( Fairlop, Hainault, Central_Line)
+( Farringdon, Barbican, Circle_Line)
+( Farringdon, Barbican, Hammersmith_&_City_Line)
+( Farringdon, Barbican, Metropolitan_Line)
+( Farringdon, King's_Cross_St_Pancras, Circle_Line)
+( Farringdon, King's_Cross_St_Pancras, Hammersmith_&_City_Line)
+( Farringdon, King's_Cross_St_Pancras, Metropolitan_Line)
+( Finchley_Central, East_Finchley, Northern_Line)
+( Finchley_Central, Mill_Hill_East, Northern_Line)
+( Finchley_Central, West_Finchley, Northern_Line)
+( Finchley_Road, Baker_Street, Metropolitan_Line)
+( Finchley_Road, Swiss_Cottage, Jubilee_Line)
+( Finchley_Road, Wembley_Park, Metropolitan_Line)
+( Finchley_Road, West_Hampstead, Jubilee_Line)
+( Finchley_Road_&_Frognal, Hampstead_Heath, National_Rail_Line)
+( Finchley_Road_&_Frognal, West_Hampstead, National_Rail_Line)
+( Finsbury_Park, Arsenal, Piccadilly_Line)
+( Finsbury_Park, Highbury_&_Islington, Victoria_Line)
+( Finsbury_Park, Manor_House, Piccadilly_Line)
+( Finsbury_Park, Seven_Sisters, Victoria_Line)
+( Fulham_Broadway, Parsons_Green, District_Line)
+( Fulham_Broadway, West_Brompton, District_Line)
+( Gallions_Reach, Beckton, Docklands_Light_Railway_Line)
+( Gallions_Reach, Cyprus, Docklands_Light_Railway_Line)
+( Gants_Hill, Newbury_Park, Central_Line)
+( Gants_Hill, Redbridge, Central_Line)
+( Gloucester_Road, Earl's_Court, District_Line)
+( Gloucester_Road, Earl's_Court, Piccadilly_Line)
+( Gloucester_Road, High_Street_Kensington, Circle_Line)
+( Gloucester_Road, South_Kensington, Circle_Line)
+( Gloucester_Road, South_Kensington, District_Line)
+( Gloucester_Road, South_Kensington, Piccadilly_Line)
+( Golders_Green, Brent_Cross, Northern_Line)
+( Golders_Green, Hampstead, Northern_Line)
+( Goldhawk_Road, Hammersmith, Hammersmith_&_City_Line)
+( Goldhawk_Road, Shepherd's_Bush_<Hammersmith>, Hammersmith_&_City_Line)
+( Gospel_Oak, Hampstead_Heath, National_Rail_Line)
+( Gospel_Oak, Kentish_Town_West, National_Rail_Line)
+( Grange_Hill, Chigwell, Central_Line)
+( Grange_Hill, Hainault, Central_Line)
+( Great_Portland_Street, Baker_Street, Circle_Line)
+( Great_Portland_Street, Baker_Street, Hammersmith_&_City_Line)
+( Great_Portland_Street, Baker_Street, Metropolitan_Line)
+( Great_Portland_Street, Euston_Square, Circle_Line)
+( Great_Portland_Street, Euston_Square, Hammersmith_&_City_Line)
+( Great_Portland_Street, Euston_Square, Metropolitan_Line)
+( Green_Park, Bond_Street, Jubilee_Line)
+( Green_Park, Hyde_Park_Corner, Piccadilly_Line)
+( Green_Park, Oxford_Circus, Victoria_Line)
+( Green_Park, Piccadilly_Circus, Piccadilly_Line)
+( Green_Park, Victoria, Victoria_Line)
+( Green_Park, Westminster, Jubilee_Line)
+( Greenford, Northolt, Central_Line)
+( Greenford, Perivale, Central_Line)
+( Greenwich, Cutty_Sark, Docklands_Light_Railway_Line)
+( Greenwich, Deptford_Bridge, Docklands_Light_Railway_Line)
+( Gunnersbury, Kew_Gardens, District_Line)
+( Gunnersbury, Kew_Gardens, National_Rail_Line)
+( Gunnersbury, South_Acton, National_Rail_Line)
+( Gunnersbury, Turnham_Green, District_Line)
+( Hackney_Central, Dalston_Kingsland, National_Rail_Line)
+( Hackney_Central, Homerton, National_Rail_Line)
+( Hackney_Wick, Homerton, National_Rail_Line)
+( Hackney_Wick, Stratford, National_Rail_Line)
+( Hainault, Fairlop, Central_Line)
+( Hainault, Grange_Hill, Central_Line)
+( Hammersmith, Barons_Court, District_Line)
+( Hammersmith, Barons_Court, Piccadilly_Line)
+( Hammersmith, Goldhawk_Road, Hammersmith_&_City_Line)
+( Hammersmith, Ravenscourt_Park, District_Line)
+( Hammersmith, Turnham_Green, Piccadilly_Line)
+( Hampstead, Belsize_Park, Northern_Line)
+( Hampstead, Golders_Green, Northern_Line)
+( Hampstead_Heath, Finchley_Road_&_Frognal, National_Rail_Line)
+( Hampstead_Heath, Gospel_Oak, National_Rail_Line)
+( Hanger_Lane, North_Acton, Central_Line)
+( Hanger_Lane, Perivale, Central_Line)
+( Harlesden, Stonebridge_Park, Bakerloo_Line)
+( Harlesden, Willesden_Junction, Bakerloo_Line)
+( Harrow_&_Wealdstone, Kenton, Bakerloo_Line)
+( Harrow_On_The_Hill, North_Harrow, Metropolitan_Line)
+( Harrow_On_The_Hill, Northwick_Park, Metropolitan_Line)
+( Harrow_On_The_Hill, West_Harrow, Metropolitan_Line)
+( Hatton_Cross, Heathrow_Terminal_4, Piccadilly_Line)
+( Hatton_Cross, Heathrow_Terminals_123, Piccadilly_Line)
+( Hatton_Cross, Hounslow_West, Piccadilly_Line)
+( Heathrow_Terminal_4, Hatton_Cross, Piccadilly_Line)
+( Heathrow_Terminal_4, Heathrow_Terminals_123, Piccadilly_Line)
+( Heathrow_Terminals_123, Hatton_Cross, Piccadilly_Line)
+( Heathrow_Terminals_123, Heathrow_Terminal_4, Piccadilly_Line)
+( Hendon_Central, Brent_Cross, Northern_Line)
+( Hendon_Central, Colindale, Northern_Line)
+( Heron_Quays, Canary_Wharf, Docklands_Light_Railway_Line)
+( Heron_Quays, South_Quay, Docklands_Light_Railway_Line)
+( High_Barnet, Totteridge_&_Whetstone, Northern_Line)
+( High_Street_Kensington, Gloucester_Road, Circle_Line)
+( High_Street_Kensington, Notting_Hill_Gate, Circle_Line)
+( Highbury_&_Islington, Caledonian_Road_&_Barnsbury, National_Rail_Line)
+( Highbury_&_Islington, Canonbury, National_Rail_Line)
+( Highbury_&_Islington, Finsbury_Park, Victoria_Line)
+( Highbury_&_Islington, King's_Cross_St_Pancras, Victoria_Line)
+( Highgate, Archway, Northern_Line)
+( Highgate, East_Finchley, Northern_Line)
+( Hittingdon, Ickenham, Metropolitan_Line)
+( Hittingdon, Ickenham, Piccadilly_Line)
+( Hittingdon, Uxbridge, Metropolitan_Line)
+( Hittingdon, Uxbridge, Piccadilly_Line)
+( Holborn, Chancery_Lane, Central_Line)
+( Holborn, Covent_Garden, Piccadilly_Line)
+( Holborn, Russell_Square, Piccadilly_Line)
+( Holborn, Tottenham_Court_Road, Central_Line)
+( Holland_Park, Notting_Hill_Gate, Central_Line)
+( Holland_Park, Shepherd's_Bush_<Central>, Central_Line)
+( Holloway_Road, Arsenal, Piccadilly_Line)
+( Holloway_Road, Caledonian_Road, Piccadilly_Line)
+( Homerton, Hackney_Central, National_Rail_Line)
+( Homerton, Hackney_Wick, National_Rail_Line)
+( Hornchurch, Elm_Park, District_Line)
+( Hornchurch, Upminster_Bridge, District_Line)
+( Hounslow_Central, Hounslow_East, Piccadilly_Line)
+( Hounslow_Central, Hounslow_West, Piccadilly_Line)
+( Hounslow_East, Hounslow_Central, Piccadilly_Line)
+( Hounslow_East, Osterly, Piccadilly_Line)
+( Hounslow_West, Hatton_Cross, Piccadilly_Line)
+( Hounslow_West, Hounslow_Central, Piccadilly_Line)
+( Hyde_Park_Corner, Green_Park, Piccadilly_Line)
+( Hyde_Park_Corner, Knightsbridge, Piccadilly_Line)
+( Ickenham, Hittingdon, Metropolitan_Line)
+( Ickenham, Hittingdon, Piccadilly_Line)
+( Ickenham, Ruislip, Metropolitan_Line)
+( Ickenham, Ruislip, Piccadilly_Line)
+( Island_Gardens, Cutty_Sark, Docklands_Light_Railway_Line)
+( Island_Gardens, Mudchute, Docklands_Light_Railway_Line)
+( Kennington, Elephant_&_Castle, Northern_Line)
+( Kennington, Oval, Northern_Line)
+( Kensal_Green, Queen's_Park, Bakerloo_Line)
+( Kensal_Green, Willesden_Junction, Bakerloo_Line)
+( Kensal_Rise, Acton_Central, National_Rail_Line)
+( Kensal_Rise, Brondesbury_Park, National_Rail_Line)
+( Kentish_Town, Camden_Town, Northern_Line)
+( Kentish_Town, Tufnell_Park, Northern_Line)
+( Kentish_Town_West, Camden_Road, National_Rail_Line)
+( Kentish_Town_West, Gospel_Oak, National_Rail_Line)
+( Kenton, Harrow_&_Wealdstone, Bakerloo_Line)
+( Kenton, South_Kenton, Bakerloo_Line)
+( Kew_Gardens, Gunnersbury, District_Line)
+( Kew_Gardens, Gunnersbury, National_Rail_Line)
+( Kew_Gardens, Richmond, District_Line)
+( Kew_Gardens, Richmond, National_Rail_Line)
+( Kilburn, West_Hampstead, Jubilee_Line)
+( Kilburn, Willesden_Green, Jubilee_Line)
+( Kilburn_Park, Maida_Vale, Bakerloo_Line)
+( Kilburn_Park, Queen's_Park, Bakerloo_Line)
+( King's_Cross_St_Pancras, Angel, Northern_Line)
+( King's_Cross_St_Pancras, Caledonian_Road, Piccadilly_Line)
+( King's_Cross_St_Pancras, Euston, Northern_Line)
+( King's_Cross_St_Pancras, Euston, Victoria_Line)
+( King's_Cross_St_Pancras, Euston_Square, Circle_Line)
+( King's_Cross_St_Pancras, Euston_Square, Hammersmith_&_City_Line)
+( King's_Cross_St_Pancras, Euston_Square, Metropolitan_Line)
+( King's_Cross_St_Pancras, Farringdon, Circle_Line)
+( King's_Cross_St_Pancras, Farringdon, Hammersmith_&_City_Line)
+( King's_Cross_St_Pancras, Farringdon, Metropolitan_Line)
+( King's_Cross_St_Pancras, Highbury_&_Islington, Victoria_Line)
+( King's_Cross_St_Pancras, Russell_Square, Piccadilly_Line)
+( Kingsbury, Queensbury, Jubilee_Line)
+( Kingsbury, Wembley_Park, Jubilee_Line)
+( Knightsbridge, Hyde_Park_Corner, Piccadilly_Line)
+( Knightsbridge, South_Kensington, Piccadilly_Line)
+( Ladbroke_Grove, Latimer_Road, Hammersmith_&_City_Line)
+( Ladbroke_Grove, Westbourne_Park, Hammersmith_&_City_Line)
+( Lambeth_North, Elephant_&_Castle, Bakerloo_Line)
+( Lambeth_North, Waterloo, Bakerloo_Line)
+( Lancaster_Gate, Marble_Arch, Central_Line)
+( Lancaster_Gate, Queensway, Central_Line)
+( Latimer_Road, Ladbroke_Grove, Hammersmith_&_City_Line)
+( Latimer_Road, Shepherd's_Bush_<Hammersmith>, Hammersmith_&_City_Line)
+( Leicester_Square, Covent_Garden, Piccadilly_Line)
+( Leicester_Square, Piccadilly_Circus, Piccadilly_Line)
+( Lewisham, Elverson_Road, Docklands_Light_Railway_Line)
+( Leyton, Leytonstone, Central_Line)
+( Leyton, Stratford, Central_Line)
+( Leytonstone, Leyton, Central_Line)
+( Leytonstone, Snaresbrook, Central_Line)
+( Leytonstone, Wanstead, Central_Line)
+( Limehouse, Shadwell, Docklands_Light_Railway_Line)
+( Limehouse, Westferry, Docklands_Light_Railway_Line)
+( Liverpool_Street, Aldgate, Metropolitan_Line)
+( Liverpool_Street, Aldgate_East, Hammersmith_&_City_Line)
+( Liverpool_Street, Bank, Central_Line)
+( Liverpool_Street, Bethnal_Green, Central_Line)
+( Liverpool_Street, Moorgate, Circle_Line)
+( Liverpool_Street, Moorgate, Hammersmith_&_City_Line)
+( Liverpool_Street, Moorgate, Metropolitan_Line)
+( Liverpool_Street, Tower_Hill, Circle_Line)
+( London_Bridge, Bank, Northern_Line)
+( London_Bridge, Bermondsey, Jubilee_Line)
+( London_Bridge, Borough, Northern_Line)
+( London_Bridge, Southwark, Jubilee_Line)
+( Loughton, Buckhurst_Hill, Central_Line)
+( Loughton, Debden, Central_Line)
+( Maida_Vale, Kilburn_Park, Bakerloo_Line)
+( Maida_Vale, Warwick_Avenue, Bakerloo_Line)
+( Manor_House, Finsbury_Park, Piccadilly_Line)
+( Manor_House, Turnpike_Lane, Piccadilly_Line)
+( Mansion_House, Blackfriars, Circle_Line)
+( Mansion_House, Blackfriars, District_Line)
+( Mansion_House, Cannon_Street, Circle_Line)
+( Mansion_House, Cannon_Street, District_Line)
+( Marble_Arch, Bond_Street, Central_Line)
+( Marble_Arch, Lancaster_Gate, Central_Line)
+( Marleybone, Baker_Street, Bakerloo_Line)
+( Marleybone, Edgware_Road_<Bakerloo>, Bakerloo_Line)
+( Mile_End, Bethnal_Green, Central_Line)
+( Mile_End, Bow_Road, District_Line)
+( Mile_End, Bow_Road, Hammersmith_&_City_Line)
+( Mile_End, Stepney_Green, District_Line)
+( Mile_End, Stepney_Green, Hammersmith_&_City_Line)
+( Mile_End, Stratford, Central_Line)
+( Mill_Hill_East, Finchley_Central, Northern_Line)
+( Monument, Bank, Connected_Underground)
+( Monument, Cannon_Street, Circle_Line)
+( Monument, Cannon_Street, District_Line)
+( Monument, Tower_Hill, Circle_Line)
+( Monument, Tower_Hill, District_Line)
+( Moor_Park, Croxley, Metropolitan_Line)
+( Moor_Park, Northwood, Metropolitan_Line)
+( Moor_Park, Rickmansworth, Metropolitan_Line)
+( Moorgate, Bank, Northern_Line)
+( Moorgate, Barbican, Circle_Line)
+( Moorgate, Barbican, Hammersmith_&_City_Line)
+( Moorgate, Barbican, Metropolitan_Line)
+( Moorgate, Liverpool_Street, Circle_Line)
+( Moorgate, Liverpool_Street, Hammersmith_&_City_Line)
+( Moorgate, Liverpool_Street, Metropolitan_Line)
+( Moorgate, Old_Street, Northern_Line)
+( Morden, South_Wimbledon, Northern_Line)
+( Mornington_Crescent, Camden_Town, Northern_Line)
+( Mornington_Crescent, Euston, Northern_Line)
+( Mudchute, Crossharbour_&_London_Arena, Docklands_Light_Railway_Line)
+( Mudchute, Island_Gardens, Docklands_Light_Railway_Line)
+( Neasdon, Dollis_Hill, Jubilee_Line)
+( Neasdon, Wembley_Park, Jubilee_Line)
+( New_Cross, Surrey_Quays, East_London_Line)
+( New_Cross_Gate, Surrey_Quays, East_London_Line)
+( Newbury_Park, Barkingside, Central_Line)
+( Newbury_Park, Gants_Hill, Central_Line)
+( North_Acton, East_Acton, Central_Line)
+( North_Acton, Hanger_Lane, Central_Line)
+( North_Acton, West_Acton, Central_Line)
+( North_Ealing, Ealing_Common, Piccadilly_Line)
+( North_Ealing, Park_Royal, Piccadilly_Line)
+( North_Greenwich, Canary_Wharf, Jubilee_Line)
+( North_Greenwich, Canning_Town, Jubilee_Line)
+( North_Harrow, Harrow_On_The_Hill, Metropolitan_Line)
+( North_Harrow, Pinner, Metropolitan_Line)
+( North_Wembley, South_Kenton, Bakerloo_Line)
+( North_Wembley, Wembley_Central, Bakerloo_Line)
+( North_Woolwich, Silvertown, National_Rail_Line)
+( Northfields, Boston_Manor, Piccadilly_Line)
+( Northfields, South_Ealing, Piccadilly_Line)
+( Northolt, Greenford, Central_Line)
+( Northolt, South_Ruislip, Central_Line)
+( Northwick_Park, Harrow_On_The_Hill, Metropolitan_Line)
+( Northwick_Park, Preston_Road, Metropolitan_Line)
+( Northwood, Moor_Park, Metropolitan_Line)
+( Northwood, Northwood_Hills, Metropolitan_Line)
+( Northwood_Hills, Northwood, Metropolitan_Line)
+( Northwood_Hills, Pinner, Metropolitan_Line)
+( Notting_Hill_Gate, High_Street_Kensington, Circle_Line)
+( Notting_Hill_Gate, Holland_Park, Central_Line)
+( Notting_Hill_Gate, Paddington_<Bakerloo_&_Circle>, Circle_Line)
+( Notting_Hill_Gate, Queensway, Central_Line)
+( Oakwood, Cockfosters, Piccadilly_Line)
+( Oakwood, Southgate, Piccadilly_Line)
+( Old_Street, Angel, Northern_Line)
+( Old_Street, Moorgate, Northern_Line)
+( Osterly, Boston_Manor, Piccadilly_Line)
+( Osterly, Hounslow_East, Piccadilly_Line)
+( Oval, Kennington, Northern_Line)
+( Oval, Stockwell, Northern_Line)
+( Oxford_Circus, Bond_Street, Central_Line)
+( Oxford_Circus, Green_Park, Victoria_Line)
+( Oxford_Circus, Piccadilly_Circus, Bakerloo_Line)
+( Oxford_Circus, Regent's_Park, Bakerloo_Line)
+( Oxford_Circus, Tottenham_Court_Road, Central_Line)
+( Oxford_Circus, Warren_Street, Victoria_Line)
+( Paddington_<Bakerloo_&_Circle>, Edgware_Road_<Bakerloo>, Bakerloo_Line)
+( Paddington_<Bakerloo_&_Circle>, Edgware_Road_<Circle_&_Hammersmith>, Circle_Line)
+( Paddington_<Bakerloo_&_Circle>, Notting_Hill_Gate, Circle_Line)
+( Paddington_<Bakerloo_&_Circle>, Warwick_Avenue, Bakerloo_Line)
+( Paddington_<Hammersmith>, Edgware_Road_<Circle_&_Hammersmith>, Hammersmith_&_City_Line)
+( Paddington_<Hammersmith>, Royal_Oak, Hammersmith_&_City_Line)
+( Park_Royal, Alperton, Piccadilly_Line)
+( Park_Royal, North_Ealing, Piccadilly_Line)
+( Parsons_Green, Fulham_Broadway, District_Line)
+( Parsons_Green, Putney_Bridge, District_Line)
+( Perivale, Greenford, Central_Line)
+( Perivale, Hanger_Lane, Central_Line)
+( Piccadilly_Circus, Charing_Cross, Bakerloo_Line)
+( Piccadilly_Circus, Green_Park, Piccadilly_Line)
+( Piccadilly_Circus, Leicester_Square, Piccadilly_Line)
+( Piccadilly_Circus, Oxford_Circus, Bakerloo_Line)
+( Pimlico, Vauxhall, Victoria_Line)
+( Pimlico, Victoria, Victoria_Line)
+( Pinner, North_Harrow, Metropolitan_Line)
+( Pinner, Northwood_Hills, Metropolitan_Line)
+( Plaistow, Upton_Park, District_Line)
+( Plaistow, Upton_Park, Hammersmith_&_City_Line)
+( Plaistow, West_Ham, District_Line)
+( Plaistow, West_Ham, Hammersmith_&_City_Line)
+( Poplar, All_Saints, Docklands_Light_Railway_Line)
+( Poplar, Blackwall, Docklands_Light_Railway_Line)
+( Poplar, West_India_Quay, Docklands_Light_Railway_Line)
+( Poplar, Westferry, Docklands_Light_Railway_Line)
+( Preston_Road, Northwick_Park, Metropolitan_Line)
+( Preston_Road, Wembley_Park, Metropolitan_Line)
+( Prince_Regent, Custom_House, Docklands_Light_Railway_Line)
+( Prince_Regent, Royal_Albert, Docklands_Light_Railway_Line)
+( Pudding_Mill_Lane, Bow_Church, Docklands_Light_Railway_Line)
+( Pudding_Mill_Lane, Stratford, Docklands_Light_Railway_Line)
+( Putney_Bridge, East_Putney, District_Line)
+( Putney_Bridge, Parsons_Green, District_Line)
+( Queen's_Park, Kensal_Green, Bakerloo_Line)
+( Queen's_Park, Kilburn_Park, Bakerloo_Line)
+( Queensbury, Canons_Park, Jubilee_Line)
+( Queensbury, Kingsbury, Jubilee_Line)
+( Queensway, Lancaster_Gate, Central_Line)
+( Queensway, Notting_Hill_Gate, Central_Line)
+( Ravenscourt_Park, Hammersmith, District_Line)
+( Ravenscourt_Park, Stamford_Brook, District_Line)
+( Rayners_Lane, Eastcote, Metropolitan_Line)
+( Rayners_Lane, Eastcote, Piccadilly_Line)
+( Rayners_Lane, South_Harrow, Piccadilly_Line)
+( Rayners_Lane, West_Harrow, Metropolitan_Line)
+( Redbridge, Gants_Hill, Central_Line)
+( Redbridge, Wanstead, Central_Line)
+( Regent's_Park, Baker_Street, Bakerloo_Line)
+( Regent's_Park, Oxford_Circus, Bakerloo_Line)
+( Richmond, Kew_Gardens, District_Line)
+( Richmond, Kew_Gardens, National_Rail_Line)
+( Rickmansworth, Chorleywood, Metropolitan_Line)
+( Rickmansworth, Moor_Park, Metropolitan_Line)
+( Roding_Valley, Chigwell, Central_Line)
+( Roding_Valley, Woodford, Central_Line)
+( Rotherhithe, Canada_Water, East_London_Line)
+( Rotherhithe, Wapping, East_London_Line)
+( Royal_Albert, Beckton_Park, Docklands_Light_Railway_Line)
+( Royal_Albert, Prince_Regent, Docklands_Light_Railway_Line)
+( Royal_Oak, Paddington_<Hammersmith>, Hammersmith_&_City_Line)
+( Royal_Oak, Westbourne_Park, Hammersmith_&_City_Line)
+( Royal_Victoria, Canning_Town, Docklands_Light_Railway_Line)
+( Royal_Victoria, Custom_House, Docklands_Light_Railway_Line)
+( Ruislip, Ickenham, Metropolitan_Line)
+( Ruislip, Ickenham, Piccadilly_Line)
+( Ruislip, Ruislip_Manor, Metropolitan_Line)
+( Ruislip, Ruislip_Manor, Piccadilly_Line)
+( Ruislip_Gardens, South_Ruislip, Central_Line)
+( Ruislip_Gardens, West_Ruislip, Central_Line)
+( Ruislip_Manor, Eastcote, Metropolitan_Line)
+( Ruislip_Manor, Eastcote, Piccadilly_Line)
+( Ruislip_Manor, Ruislip, Metropolitan_Line)
+( Ruislip_Manor, Ruislip, Piccadilly_Line)
+( Russell_Square, Holborn, Piccadilly_Line)
+( Russell_Square, King's_Cross_St_Pancras, Piccadilly_Line)
+( Seven_Sisters, Finsbury_Park, Victoria_Line)
+( Seven_Sisters, Tottenham_Hale, Victoria_Line)
+( Shadwell, Bank, Docklands_Light_Railway_Line)
+( Shadwell, Limehouse, Docklands_Light_Railway_Line)
+( Shadwell, Tower_Gateway, Docklands_Light_Railway_Line)
+( Shadwell, Wapping, East_London_Line)
+( Shadwell, Whitechapel, East_London_Line)
+( Shepherd's_Bush_<Central>, Holland_Park, Central_Line)
+( Shepherd's_Bush_<Central>, White_City, Central_Line)
+( Shepherd's_Bush_<Hammersmith>, Goldhawk_Road, Hammersmith_&_City_Line)
+( Shepherd's_Bush_<Hammersmith>, Latimer_Road, Hammersmith_&_City_Line)
+( Shoreditch, Whitechapel, East_London_Line)
+( Silvertown, Custom_House, National_Rail_Line)
+( Silvertown, North_Woolwich, National_Rail_Line)
+( Sloane_Square, South_Kensington, Circle_Line)
+( Sloane_Square, South_Kensington, District_Line)
+( Sloane_Square, Victoria, Circle_Line)
+( Sloane_Square, Victoria, District_Line)
+( Snaresbrook, Leytonstone, Central_Line)
+( Snaresbrook, South_Woodford, Central_Line)
+( South_Acton, Acton_Central, National_Rail_Line)
+( South_Acton, Gunnersbury, National_Rail_Line)
+( South_Ealing, Acton_Town, Piccadilly_Line)
+( South_Ealing, Northfields, Piccadilly_Line)
+( South_Ealing, Chiswick_Park, District_Line)
+( South_Harrow, Rayners_Lane, Piccadilly_Line)
+( South_Harrow, Sudbury_Hill, Piccadilly_Line)
+( South_Kensington, Gloucester_Road, Circle_Line)
+( South_Kensington, Gloucester_Road, District_Line)
+( South_Kensington, Gloucester_Road, Piccadilly_Line)
+( South_Kensington, Knightsbridge, Piccadilly_Line)
+( South_Kensington, Sloane_Square, Circle_Line)
+( South_Kensington, Sloane_Square, District_Line)
+( South_Kenton, Kenton, Bakerloo_Line)
+( South_Kenton, North_Wembley, Bakerloo_Line)
+( South_Quay, Crossharbour_&_London_Arena, Docklands_Light_Railway_Line)
+( South_Quay, Heron_Quays, Docklands_Light_Railway_Line)
+( South_Ruislip, Northolt, Central_Line)
+( South_Ruislip, Ruislip_Gardens, Central_Line)
+( South_Wimbledon, Colliers_Wood, Northern_Line)
+( South_Wimbledon, Morden, Northern_Line)
+( South_Woodford, Snaresbrook, Central_Line)
+( South_Woodford, Woodford, Central_Line)
+( Southfields, East_Putney, District_Line)
+( Southfields, Wimbledon_Park, District_Line)
+( Southgate, Arnos_Grove, Piccadilly_Line)
+( Southgate, Oakwood, Piccadilly_Line)
+( Southwark, London_Bridge, Jubilee_Line)
+( Southwark, Waterloo, Jubilee_Line)
+( St_James's_Park, Victoria, Circle_Line)
+( St_James's_Park, Victoria, District_Line)
+( St_James's_Park, Westminster, Circle_Line)
+( St_James's_Park, Westminster, District_Line)
+( St_John's_Wood, Baker_Street, Jubilee_Line)
+( St_John's_Wood, Swiss_Cottage, Jubilee_Line)
+( St_Paul's, Bank, Central_Line)
+( St_Paul's, Chancery_Lane, Central_Line)
+( Stamford_Brook, Ravenscourt_Park, District_Line)
+( Stamford_Brook, Turnham_Green, District_Line)
+( Stanmore, Canons_Park, Jubilee_Line)
+( Stepney_Green, Mile_End, District_Line)
+( Stepney_Green, Mile_End, Hammersmith_&_City_Line)
+( Stepney_Green, Whitechapel, District_Line)
+( Stepney_Green, Whitechapel, Hammersmith_&_City_Line)
+( Stockwell, Brixton, Victoria_Line)
+( Stockwell, Clapham_North, Northern_Line)
+( Stockwell, Oval, Northern_Line)
+( Stockwell, Vauxhall, Victoria_Line)
+( Stonebridge_Park, Harlesden, Bakerloo_Line)
+( Stonebridge_Park, Wembley_Central, Bakerloo_Line)
+( Stratford, Hackney_Wick, National_Rail_Line)
+( Stratford, Leyton, Central_Line)
+( Stratford, Mile_End, Central_Line)
+( Stratford, Pudding_Mill_Lane, Docklands_Light_Railway_Line)
+( Stratford, West_Ham, Jubilee_Line)
+( Stratford, West_Ham, National_Rail_Line)
+( Sudbury_Hill, South_Harrow, Piccadilly_Line)
+( Sudbury_Hill, Sudbury_Town, Piccadilly_Line)
+( Sudbury_Town, Alperton, Piccadilly_Line)
+( Sudbury_Town, Sudbury_Hill, Piccadilly_Line)
+( Surrey_Quays, Canada_Water, East_London_Line)
+( Surrey_Quays, New_Cross, East_London_Line)
+( Surrey_Quays, New_Cross_Gate, East_London_Line)
+( Swiss_Cottage, Finchley_Road, Jubilee_Line)
+( Swiss_Cottage, St_John's_Wood, Jubilee_Line)
+( Temple, Blackfriars, Circle_Line)
+( Temple, Blackfriars, District_Line)
+( Temple, Embankment, Circle_Line)
+( Temple, Embankment, District_Line)
+( Theydon_Bols, Debden, Central_Line)
+( Theydon_Bols, Epping, Central_Line)
+( Tooting_Bec, Balham, Northern_Line)
+( Tooting_Bec, Tooting_Broadway, Northern_Line)
+( Tooting_Broadway, Colliers_Wood, Northern_Line)
+( Tooting_Broadway, Tooting_Bec, Northern_Line)
+( Tottenham_Court_Road, Holborn, Central_Line)
+( Tottenham_Court_Road, Oxford_Circus, Central_Line)
+( Tottenham_Hale, Blackhorse_Road, Victoria_Line)
+( Tottenham_Hale, Seven_Sisters, Victoria_Line)
+( Totteridge_&_Whetstone, High_Barnet, Northern_Line)
+( Totteridge_&_Whetstone, Woodside_Park, Northern_Line)
+( Tower_Gateway, Shadwell, Docklands_Light_Railway_Line)
+( Tower_Gateway, Tower_Hill, Connected_Underground)
+( Tower_Hill, Liverpool_Street, Circle_Line)
+( Tower_Hill, Monument, Circle_Line)
+( Tower_Hill, Monument, District_Line)
+( Tower_Hill, Tower_Gateway, Connected_Underground)
+( Tufnell_Park, Archway, Northern_Line)
+( Tufnell_Park, Kentish_Town, Northern_Line)
+( Turnham_Green, Acton_Town, Piccadilly_Line)
+( Turnham_Green, Gunnersbury, District_Line)
+( Turnham_Green, Hammersmith, Piccadilly_Line)
+( Turnham_Green, Stamford_Brook, District_Line)
+( Turnham_Green, Chiswick_Park, District_Line)
+( Turnpike_Lane, Manor_House, Piccadilly_Line)
+( Turnpike_Lane, Wood_Green, Piccadilly_Line)
+( Upminster, Upminster_Bridge, District_Line)
+( Upminster_Bridge, Hornchurch, District_Line)
+( Upminster_Bridge, Upminster, District_Line)
+( Upney, Barking, District_Line)
+( Upney, Becontree, District_Line)
+( Upton_Park, East_Ham, District_Line)
+( Upton_Park, East_Ham, Hammersmith_&_City_Line)
+( Upton_Park, Plaistow, District_Line)
+( Upton_Park, Plaistow, Hammersmith_&_City_Line)
+( Uxbridge, Hittingdon, Metropolitan_Line)
+( Uxbridge, Hittingdon, Piccadilly_Line)
+( Vauxhall, Pimlico, Victoria_Line)
+( Vauxhall, Stockwell, Victoria_Line)
+( Victoria, Green_Park, Victoria_Line)
+( Victoria, Pimlico, Victoria_Line)
+( Victoria, Sloane_Square, Circle_Line)
+( Victoria, Sloane_Square, District_Line)
+( Victoria, St_James's_Park, Circle_Line)
+( Victoria, St_James's_Park, District_Line)
+( Walthamstow_Central, Blackhorse_Road, Victoria_Line)
+( Wanstead, Leytonstone, Central_Line)
+( Wanstead, Redbridge, Central_Line)
+( Wapping, Rotherhithe, East_London_Line)
+( Wapping, Shadwell, East_London_Line)
+( Warren_Street, Euston, Northern_Line)
+( Warren_Street, Euston, Victoria_Line)
+( Warren_Street, Oxford_Circus, Victoria_Line)
+( Warwick_Avenue, Maida_Vale, Bakerloo_Line)
+( Warwick_Avenue, Paddington_<Bakerloo_&_Circle>, Bakerloo_Line)
+( Waterloo, Bank, Waterloo_&_City_Line)
+( Waterloo, Embankment, Bakerloo_Line)
+( Waterloo, Embankment, Northern_Line)
+( Waterloo, Lambeth_North, Bakerloo_Line)
+( Waterloo, Southwark, Jubilee_Line)
+( Waterloo, Westminster, Jubilee_Line)
+( Watford, Croxley, Metropolitan_Line)
+( Wembley_Central, North_Wembley, Bakerloo_Line)
+( Wembley_Central, Stonebridge_Park, Bakerloo_Line)
+( Wembley_Park, Finchley_Road, Metropolitan_Line)
+( Wembley_Park, Kingsbury, Jubilee_Line)
+( Wembley_Park, Neasdon, Jubilee_Line)
+( Wembley_Park, Preston_Road, Metropolitan_Line)
+( West_Acton, Ealing_Broadway, Central_Line)
+( West_Acton, North_Acton, Central_Line)
+( West_Brompton, Earl's_Court, District_Line)
+( West_Brompton, Fulham_Broadway, District_Line)
+( West_Finchley, Finchley_Central, Northern_Line)
+( West_Finchley, Woodside_Park, Northern_Line)
+( West_Ham, Bromley_by_Bow, District_Line)
+( West_Ham, Bromley_by_Bow, Hammersmith_&_City_Line)
+( West_Ham, Canning_Town, Jubilee_Line)
+( West_Ham, Canning_Town, National_Rail_Line)
+( West_Ham, Plaistow, District_Line)
+( West_Ham, Plaistow, Hammersmith_&_City_Line)
+( West_Ham, Stratford, Jubilee_Line)
+( West_Ham, Stratford, National_Rail_Line)
+( West_Hampstead, Brondesbury, National_Rail_Line)
+( West_Hampstead, Finchley_Road, Jubilee_Line)
+( West_Hampstead, Finchley_Road_&_Frognal, National_Rail_Line)
+( West_Hampstead, Kilburn, Jubilee_Line)
+( West_Harrow, Harrow_On_The_Hill, Metropolitan_Line)
+( West_Harrow, Rayners_Lane, Metropolitan_Line)
+( West_India_Quay, Canary_Wharf, Docklands_Light_Railway_Line)
+( West_India_Quay, Poplar, Docklands_Light_Railway_Line)
+( West_India_Quay, Westferry, Docklands_Light_Railway_Line)
+( West_Kensington, Barons_Court, District_Line)
+( West_Kensington, Earl's_Court, District_Line)
+( West_Ruislip, Ruislip_Gardens, Central_Line)
+( Westbourne_Park, Ladbroke_Grove, Hammersmith_&_City_Line)
+( Westbourne_Park, Royal_Oak, Hammersmith_&_City_Line)
+( Westferry, Limehouse, Docklands_Light_Railway_Line)
+( Westferry, Poplar, Docklands_Light_Railway_Line)
+( Westferry, West_India_Quay, Docklands_Light_Railway_Line)
+( Westminster, Embankment, Circle_Line)
+( Westminster, Embankment, District_Line)
+( Westminster, Green_Park, Jubilee_Line)
+( Westminster, St_James's_Park, Circle_Line)
+( Westminster, St_James's_Park, District_Line)
+( Westminster, Waterloo, Jubilee_Line)
+( White_City, East_Acton, Central_Line)
+( White_City, Shepherd's_Bush_<Central>, Central_Line)
+( Whitechapel, Aldgate_East, District_Line)
+( Whitechapel, Aldgate_East, Hammersmith_&_City_Line)
+( Whitechapel, Shadwell, East_London_Line)
+( Whitechapel, Shoreditch, East_London_Line)
+( Whitechapel, Stepney_Green, District_Line)
+( Whitechapel, Stepney_Green, Hammersmith_&_City_Line)
+( Willesden_Green, Dollis_Hill, Jubilee_Line)
+( Willesden_Green, Kilburn, Jubilee_Line)
+( Willesden_Junction, Harlesden, Bakerloo_Line)
+( Willesden_Junction, Kensal_Green, Bakerloo_Line)
+( Wimbledon, Wimbledon_Park, District_Line)
+( Wimbledon_Park, Southfields, District_Line)
+( Wimbledon_Park, Wimbledon, District_Line)
+( Wood_Green, Bounds_Green, Piccadilly_Line)
+( Wood_Green, Turnpike_Lane, Piccadilly_Line)
+( Woodford, Buckhurst_Hill, Central_Line)
+( Woodford, Roding_Valley, Central_Line)
+( Woodford, South_Woodford, Central_Line)
+( Woodside_Park, Totteridge_&_Whetstone, Northern_Line)
+( Woodside_Park, West_Finchley, Northern_Line)

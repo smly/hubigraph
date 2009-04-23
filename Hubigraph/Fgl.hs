@@ -1,36 +1,54 @@
+{-# OPTIONS -fglasgow-exts #-}
+{-# LANGUAGE IncoherentInstances #-}
+{-# LANGUAGE UndecidableInstances #-}
+
 module Hubigraph.Fgl (
    addGraph, pathVertexColor,
   ) where
 
 import Data.Graph.Inductive
-import Data.Graph.Inductive.Graph as G
+import Data.Graph.Inductive.Graph
 
-import Hubigraph
+import qualified Hubigraph as H
 
-mkEdgeId :: G.Edge -> Int
+mkEdgeId :: Edge -> Int
 mkEdgeId (src,dst) = src * 10000 + dst
 
-newE :: G.Edge -> Hubigraph Int
-newE e = newEdgeWithID (mkEdgeId e) e
+newE :: Edge -> H.Hubigraph Int
+newE e = H.newEdgeWithID (mkEdgeId e) e
 
-newV :: G.Node -> Hubigraph Int
-newV v = newVertexWithID v
+newV :: LNode' a => LNode a -> H.Hubigraph ()
+newV ln = do
+  H.newVertexWithID $ fst ln
+  H.vertexLabel (fst ln) $ print' ln
+  return ()
 
-pathEdges :: Path -> [G.Edge]
+pathEdges :: Path -> [Edge]
 pathEdges (s:d:xs) = (s,d):pathEdges xs
 pathEdges (s:[]) = []
 pathEdges []     = []
 
-addGraph :: Graph gr => gr a b -> Hubigraph ()
+addGraph :: LNode' a => Graph gr => gr a b -> H.Hubigraph ()
 addGraph g = do
-  mapM_ newV (nodes g)
+  mapM_ newV (labNodes g)
   mapM_ newE (edges g)
 
-pathVertexColor :: Path -> Color -> Hubigraph ()
-pathVertexColor p c = mapM_ (\n -> vertexColor n c) p
+pathVertexColor :: Path -> H.Color -> H.Hubigraph ()
+pathVertexColor p c = mapM_ (\n -> H.vertexColor n c) p
 
-pathEdgeColor :: Path -> Color -> Hubigraph ()
+pathEdgeColor :: Path -> H.Color -> H.Hubigraph ()
 pathEdgeColor p c = undefined
 
-pathWidth :: Path -> Float -> Hubigraph ()
-pathWidth p width = mapM_ (\n -> edgeWidth (mkEdgeId n) width) $ pathEdges p
+pathWidth :: Path -> Float -> H.Hubigraph ()
+pathWidth p width = mapM_ (\n -> H.edgeWidth (mkEdgeId n) width) $ pathEdges p
+
+class LNode' a where
+    print' :: LNode a -> String
+instance LNode' String where
+    print' (n,l) = l
+instance LNode' Int where
+    print' (n,l) = show l
+instance LNode' Double where
+    print' (n,l) = show l
+instance LNode' a  where
+    print' (n,l) = ""
