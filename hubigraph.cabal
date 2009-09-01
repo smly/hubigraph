@@ -13,6 +13,7 @@ build-type:    Simple
 library
   Exposed-Modules: Hubigraph,
                    Hubigraph.Base,
+                   Hubigraph.Old,
                    Hubigraph.Fgl
   Build-Depends:   base >= 2.0, mtl >= 1.1.0.1, containers >= 0.2.0.0,
                    haxr >= 3000.1.1.1, fgl >= 5.4.2.2
