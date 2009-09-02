@@ -1,4 +1,5 @@
 module Hubigraph.Old (
+   module Hubigraph.Base,
    vertexShape, vertexShapedetail, vertexSize,
    vertexColor, vertexLabel, vertexFontcolor,
    vertexFontfamily, vertexFontsize, vertexVisible,
