@@ -37,6 +37,7 @@ data VAttr = VColor Color
            | VFontfamily String
            | VFontsize Int
            | VVisible Bool
+           | VCallback String
 
 data EAttr = EColor Color
            | ELabel String
@@ -67,6 +68,7 @@ instance Attr VAttr where
     toPair (VFontfamily s)  = ("fontfamily", s)
     toPair (VFontsize sz)   = ("fontsize", show sz)
     toPair (VVisible b)     = ("visible", show b)
+    toPair (VCallback url)  = ("callback_left_doubleclick", url)
 
 instance Attr EAttr where
     toPair (EColor c)     = ("color", c)
