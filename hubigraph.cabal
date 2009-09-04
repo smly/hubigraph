@@ -9,10 +9,12 @@ Author:        Kohei Ozaki
 Maintainer:    Kohei Ozaki <eowner@gmail.com>
 Cabal-Version: >= 1.2
 build-type:    Simple
+extra-source-files:  README, example/sample.hs
 
 library
   Exposed-Modules: Hubigraph,
                    Hubigraph.Base,
+                   Hubigraph.Style,
                    Hubigraph.Old
   Build-Depends:   base >= 2.0, mtl >= 1.1.0.1, containers >= 0.2.0.0,
-                   haxr >= 3000.1.1.1
+                   haxr >= 3000.2.1

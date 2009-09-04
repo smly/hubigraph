@@ -13,21 +13,21 @@ It provides a shortcut to plot, draw a graph (by calling XML-RPC internally).
 == SYNOPSIS:
 Make sure Ubigraph server is started before using this library.
 
-   import Hubigraph
 
-   main :: IO ()
-   main = initHubigraph "http://192.168.0.2:20738/RPC2" >>= runHubigraph test
+     import Hubigraph
 
-   test :: Hubigraph ()
-   test = do
-     mapM newVertex' [0.. (num-1)]
-     mapM (newEdge' num) [0..(num-1)]
-     return ()
-         where num = 20 :: Int
-               newEdge' upper node
-                   = newEdgeWithID node (node, (node+1) `mod` upper)
-               newVertex' n = do newVertexWithID n
-                                 vertexLabel n $ show n
+     u x = initHubigraph "http://localhost:20738/RPC2" >>= runHubigraph x
+
+     main = u $ mkRing 10
+
+     mkRing n = do mapM_ (newVertexWithID) [0..(n-1)]
+                   mapM_ (newEdge') [0..(n-1)]
+                   sid <- newVStyle 0
+                   setVStyleAttr (VColor "#ff0000") sid
+                   setVStyleAttr (VShape Sphere) sid
+                   mapM_ (changeVStyle sid) [0..(n-1)]
+         where newEdge' e = newEdge (e, (e+1) `mod` n)
+
 
 == REQUIREMENTS:
 
@@ -36,9 +36,9 @@ HaXR >= 3000.1.1.1
 
 == INSTALL:
 
-runhaskell Setup.lhs configure
-runhaskell Setup.lhs build
-runhaskell Setup.lhs install
+$ cabal configure
+$ cabal build
+$ cabal install
 
 == LICENSE:
 

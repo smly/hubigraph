@@ -1,5 +1,9 @@
 module Hubigraph.Old (
    module Hubigraph.Base,
+   clear,
+   newVertex, removeVertex,
+   newEdge, removeEdge,
+   newVertexWithID, newEdgeWithID,
    vertexShape, vertexShapedetail, vertexSize,
    vertexColor, vertexLabel, vertexFontcolor,
    vertexFontfamily, vertexFontsize, vertexVisible,
@@ -20,6 +24,41 @@ toBool :: IO Int -> IO Bool
 toBool x = do
   x' <- x
   return $ if x' == 0 then True else False
+
+clear :: Hubigraph Bool
+clear =
+    do serv <- asks server
+       liftIO . toBool $ remote serv "ubigraph.clear"
+
+newVertex :: Hubigraph VertexID
+newVertex =
+    do serv <- asks server
+       liftIO $ remote serv "ubigraph.new_vertex"
+
+removeVertex :: VertexID -> Hubigraph Bool
+removeVertex vid =
+    do serv <- asks server
+       liftIO . toBool $ remote serv "ubigraph.remove_vertex" vid
+
+newEdge :: Edge -> Hubigraph EdgeID
+newEdge (src,dst) =
+    do serv <- asks server
+       liftIO $ remote serv "ubigraph.new_edge" src dst
+
+removeEdge :: EdgeID -> Hubigraph Bool
+removeEdge eid =
+    do serv <- asks server
+       liftIO . toBool $ remote serv "ubigraph.remove_edge" eid
+
+newVertexWithID :: VertexID -> Hubigraph Bool
+newVertexWithID node =
+    do serv <- asks server
+       liftIO . toBool $ remote serv "ubigraph.new_vertex_w_id" node
+
+newEdgeWithID :: EdgeID -> Edge -> Hubigraph Bool
+newEdgeWithID eid (src,dst) =
+    do serv <- asks server
+       liftIO . toBool $ remote serv "ubigraph.new_edge_w_id" eid src dst
 
 -- ################# old interface (version ~0.2)
 setVertexAttribute :: VertexID -> String -> String -> Hubigraph Bool

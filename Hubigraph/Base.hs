@@ -1,10 +1,20 @@
 module Hubigraph.Base (
    Hubigraph, Ubigraph(..), VertexID, EdgeID, Edge, Color, Shape(..), Stroke(..),
    Attr(..), VAttr(..), EAttr(..), StyleID,
+   runHubigraph, initHubigraph,
   ) where
 
 import Control.Monad.Reader (ReaderT(..), runReaderT, asks, liftIO, lift)
-import Network.XmlRpc.Internals
+
+runHubigraph = runReaderT
+
+initHubigraph :: (Monad m) => String -> m Ubigraph
+initHubigraph serv = return ( Ubigraph { server = serv } )
+
+toBool :: IO Int -> IO Bool
+toBool x = do
+  x' <- x
+  return $ if x' == 0 then True else False
 
 type Hubigraph = ReaderT Ubigraph IO
 data Ubigraph = Ubigraph { server :: String }
