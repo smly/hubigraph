@@ -14,7 +14,7 @@ It provides a shortcut to draw a graph in ubigraph (by calling XML-RPC internall
 
 Make sure Ubigraph server is started before using this library.
 
-     import Hubigraph
+     import Graphics.Ubigraph
 
      u x = initHubigraph "http://localhost:20738/RPC2" >>= runHubigraph x
 
