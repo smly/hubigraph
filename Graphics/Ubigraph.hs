@@ -1,7 +1,6 @@
-module Hubigraph (
-   module Hubigraph.Base,
-   module Hubigraph.Style,
-   --module Hubigraph.Old,
+module Graphics.Ubigraph (
+   module Graphics.Ubigraph.Base,
+   module Graphics.Ubigraph.Style,
    clear,
    newVertex, removeVertex,
    newEdge, removeEdge,
@@ -12,8 +11,8 @@ module Hubigraph (
 import Control.Monad.Reader (ReaderT(..), runReaderT, asks, liftIO, lift)
 import Network.XmlRpc.Client (remote)
 import Data.Char (toLower)
-import Hubigraph.Base
-import Hubigraph.Style
+import Graphics.Ubigraph.Base
+import Graphics.Ubigraph.Style
 
 toBool :: IO Int -> IO Bool
 toBool x = do

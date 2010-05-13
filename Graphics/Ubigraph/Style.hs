@@ -1,11 +1,11 @@
-module Hubigraph.Style (
+module Graphics.Ubigraph.Style (
    changeVStyle, newVStyle, newVStyleWithID, setVStyleAttr,
    changeEStyle, newEStyle, newEStyleWithID, setEStyleAttr,
 ) where
 
 import Control.Monad.Reader (asks, liftIO)
 import Network.XmlRpc.Client (remote)
-import Hubigraph.Base
+import Graphics.Ubigraph.Base
 
 toBool :: IO Int -> IO Bool
 toBool x = do

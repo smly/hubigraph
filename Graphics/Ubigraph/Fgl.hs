@@ -2,14 +2,14 @@
 {-# LANGUAGE IncoherentInstances #-}
 {-# LANGUAGE UndecidableInstances #-}
 
-module Hubigraph.Fgl (
+module Graphics.Ubigraph.Fgl (
    addGraph, pathVertexColor,
   ) where
 
 import Data.Graph.Inductive
 import Data.Graph.Inductive.Graph
 
-import qualified Hubigraph as H
+import qualified Graphics.Ubigraph as H
 
 mkEdgeId :: Edge -> Int
 mkEdgeId (src,dst) = src * 10000 + dst

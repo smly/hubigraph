@@ -1,4 +1,4 @@
-module Hubigraph.Base (
+module Graphics.Ubigraph.Base (
    Hubigraph, Ubigraph(..), VertexID, EdgeID, Edge, Color, Shape(..), Stroke(..),
    Attr(..), VAttr(..), EAttr(..), StyleID,
    runHubigraph, initHubigraph,
