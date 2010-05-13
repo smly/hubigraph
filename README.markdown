@@ -1,18 +1,18 @@
-= Hubigraph
+# Hubigraph
 
 http://ooxo.org/hubigraph/
 
-== DESCRIPTION:
+## DESCRIPTION
 
 a Haskell wrap for Ubigraph (http://www.ubietylab.net/ubigraph)
 
-== FEATURES/PROBLEMS:
+## FEATURES/PROBLEMS
 
-It provides a shortcut to plot, draw a graph (by calling XML-RPC internally).
+It provides a shortcut to draw a graph in ubigraph (by calling XML-RPC internally.)
 
-== SYNOPSIS:
+## SYNOPSIS
+
 Make sure Ubigraph server is started before using this library.
-
 
      import Hubigraph
 
@@ -28,18 +28,14 @@ Make sure Ubigraph server is started before using this library.
                    mapM_ (changeVStyle sid) [0..(n-1)]
          where newEdge' e = newEdge (e, (e+1) `mod` n)
 
-
-== REQUIREMENTS:
+## REQUIREMENTS
 
 Ubigraph (http://www.ubietylab.net/ubigraph).
-HaXR >= 3000.1.1.1
 
-== INSTALL:
+## INSTALL
 
-$ cabal configure
-$ cabal build
-$ cabal install
+$ cabal install hubigraph
 
-== LICENSE:
+## LICENSE
 
 The BSD3 License
