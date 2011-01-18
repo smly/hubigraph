@@ -62,6 +62,10 @@ data EAttr = EColor Color
            | EStroke Stroke
            | EWidth Float -- default: 1.0
            | EArrow Bool -- default: false
+           | EArrowPosition Float -- default 0.5
+           | EArrowRadius Float -- default 1.0
+           | EArrowLength Float -- default 1.0
+           | EArrowReverse Bool -- default false
            | EShowstrain Bool -- default: false
            | EVisible Bool
 
@@ -91,6 +95,10 @@ instance Attr EAttr where
     toPair (EStroke st)   = ("stroke", show st)
     toPair (EWidth f)     = ("width", show f)
     toPair (EArrow b)     = ("arrow", show b)
+    toPair (EArrowPosition f)     = ("arrow_position", show f)
+    toPair (EArrowRadius f)     = ("arrow_radius", show f)
+    toPair (EArrowLength f)     = ("arrow_length", show f)
+    toPair (EArrowReverse b)     = ("arrow_reverse", show b)
     toPair (EShowstrain b)= ("showstrain", show b)
     toPair (EVisible b)   = ("visible", show b)
 
