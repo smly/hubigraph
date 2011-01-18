@@ -1,4 +1,4 @@
-name:                Hubigraph
+name:                hubigraph
 version:             0.3.1
 homepage:            http://ooxo.org/hubigraph/
 synopsis:            A haskell wrap for Ubigraph
@@ -16,5 +16,5 @@ library
   exposed-modules:  Graphics.Ubigraph,
                     Graphics.Ubigraph.Base,
                     Graphics.Ubigraph.Style
-  build-depends:    base >= 3, mtl >= 1.1.0.1, containers >= 0.2.0.0,
+  build-depends:    base >=3 && < 5, mtl >= 1.1.0.1, containers >= 0.2.0.0,
                     haxr >= 3000.2.1
